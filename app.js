@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const twitchUtil = require('./lib/twitchUtil')
 
 const client = new Discord.Client()
-const discordToken = 'NjIyNDc5ODU3OTE3NjI0MzIw.XX0hOg.fIlo8cxNSWkdF70Z6llMi8XFJR8'
+const discordToken = ''
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
